@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    background: #000;
+    color: #fff;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(Website\ background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+
+}
+.logo{
+    float: left;
+    padding: 10px;
+    width: 80px;
+    height: 100px;
+
+}
+     
+.navbar{
+    padding-left: 20px;
+    padding-top: 45px;
+    float: left;
+    height: 70px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+ul {
+    list-style: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{ 
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    margin-left: 62px;
+    margin-top: 27;
+    font-size: 16px;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+
+}
+.content{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    height: auto;
+    margin: auto;
+    width: 1000px;
+    padding-top: 150px;
+    letter-spacing: 1.8px;
+    line-height: 40px;
+}
+.content h1{
+    font-size: 70px;
+    line-height: 90px;
+    
+}
+.content h3{
+    padding-bottom: 10px;
+    padding-top: 15px;
+    line-height: 30px; 
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .cn a{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.content .cn:hover{
+    background-color: antiquewhite;
+}
+.span{
+    color: #ff7200;
+    size:80px ;
+}
+.side-img{
+    width: 350px;
+    height: 440px;
+    position: absolute;
+    top: 140px;
+    left: 880px;
+    border-radius: 20px;
+}
+
+.side-img:hover{
+    transition: 0.7s ease-in-out;
+    width: 370px;
+    height: 460px;
+    top: 130px;
+    left: 870px;
+}
+
+
+
+
+
+
+
+
+
+.section-2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#E5E7E9,#E5E7E9);
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+
+}
+
+.sec-img1{
+    width: 310px;
+    height: 410px;
+    position: absolute;
+    top: 50px;
+    right: 880px;
+    border-radius: 20px;
+}
+.sec-img2{
+    width: 480px;
+    height: 290px;
+    position: absolute;
+    top: 280px;
+    left: 780px;
+    border-radius: 20px;
+}
+.hobby{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff7200;
+    font-size: 70px;
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+.Beautiful-images{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+
+}
+
+
+
+
+
+
+
+
+.section-3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)) ,url(section\ 3\ image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+
+
+
+.exceptional{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 60px;
+    position: absolute;
+    right:600px;
+    top: 110px;
+    letter-spacing: 1.8px;
+    line-height: 70px;
+}
+
+.Client{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    right:1080px;
+    top: 480px;
+}
+
+
+
+
+
+
+
+
+
+
+.section-4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#E5E7E9,#E5E7E9);
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+.sec-img3{
+    width: 480px;
+    height: 240px;
+    position: absolute;
+    top: 40px;
+    left: 780px;
+    border-radius: 20px;
+}
+.sec-img4{
+    width: 480px;
+    height: 240px;
+    position: absolute;
+    top: 340px;
+    left: 780px;
+    border-radius: 20px;
+}
+.Skills{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff7200;
+    font-size: 70px;
+    position: absolute;
+    left: 110px;
+    top: 100px;
+}
+
+.skills-list{
+    list-style: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list1{
+    list-style: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    left: 110px;
+    top: 200px;
+}
+.list2{
+    list-style: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    left: 110px;
+    top: 260px;
+}
+.list3{
+    list-style: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    left: 110px;
+    top: 320px;
+}
+.list4{
+    list-style: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    left: 110px;
+    top: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+.section-5{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(footer\ img.png);
+    background-size: cover;
+    background-position: center;
+    padding: 8px 3%;
+    position: relative;
+}
+
+.Follow{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff7200;
+    font-size: 50px;
+    position: absolute;
+    left: 465px;
+    top: 80px;
+    letter-spacing: 5px;
+}
+
+.facebook{
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    top: 155px;
+    cursor: pointer;
+}
+.instagram{
+    text-align: center;
+    position: absolute;
+    left: 560px;
+    top: 155px;
+    cursor: pointer;
+}
+.youtube{
+    text-align: center;
+    position: absolute;
+    left: 620px;
+    top: 150px;
+    cursor: pointer;
+}
+.twitter{
+    text-align: center;
+    position: absolute;
+    left: 680px;
+    top: 155px;
+    cursor: pointer;
+}
+.global{
+    text-align: center;
+    position: absolute;
+    left: 740px;
+    top: 155px;
+    cursor: pointer;
+}
+
+.love{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 15px;
+    position: absolute;
+    left: 527px;
+    top: 330px;
+    letter-spacing: 5px;
+}
+.last{
+    color: #ff7200;
+    cursor: pointer;
+}
